@@ -1,0 +1,12 @@
+Goal:
+Create a gem based game in which each gem has a different, random value ranging from 1-12.
+Allow the user to click on the gems to display random value of each gem.
+Display total score required to win and have player attempt to match score with each gem's value.
+Lose if gem value too high, win if match.
+Display win/loses
+
+Steps:
+1)Set up UI
+2)Esstablish logic to assign random values to score/gem's
+3)Have game listening for user input
+4)have game record current score win/lose and number of wins/losses
