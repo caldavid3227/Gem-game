@@ -13,9 +13,9 @@ const btn = document.querySelector('input');
 
 $(function updateGemTotal(){
 	$(".score").text(randGem)
+	btn.addEventListener('Click', updateGemTotal);
 });
 
-btn.addEventListener('Click', updateGemTotal);
 
 $( ".randomNumber" ).text( "helloo!" );
 
