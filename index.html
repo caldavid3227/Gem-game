@@ -16,17 +16,17 @@
     <script type="text/javascript" src=""></script>
 </head>
 
-<body>
+<body background="assets/images/crystalBG1.png">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="jumbotron text-center">
                     <h1 class="text-danger"> Crystall Collector</h1>
+                                <li>You will be given a random number at the start of this game.</li>
                     <hr>
                     <p>
                         <div class="content">
                             <ul>
-                                <li>You will be given a random number at the start of this game.</li>
                                 <br>
                                 <li>There are four crystals bellow by clicking on one you will add a speccific number of points to your totla score.</li>
                                 <br>
@@ -84,10 +84,10 @@
                     </div>
                     <div class="panel-body">
                         <div class="panel-content">
-                            <input type="button" class="gemBtn" value="saphire"></input>
-                            <input type="button" class="gemBtn" value="diamond"></input>
-                            <input type="button" class="gemBtn" value="ruby"></input>
-                            <input type="button" class="gemBtn" value="emerald"></input>
+                            <input type="button" class="gemBtn" id="gemBtnS" onclick="addToTotal('1')" value="saphire"></input>
+                            <input type="button" class="gemBtn" id="gemBtnD" onclick="addToTotal('2')" value="diamond"></input>
+                            <input type="button" class="gemBtn" id="gemBtnR" onclick="addToTotal('3')" value="ruby"></input>
+                            <input type="button" class="gemBtn" id="gemBtnE" onclick="addToTotal('4')" value="emerald"></input>
                         </div>
                     </div>
                 </div>
@@ -100,14 +100,12 @@
                                 <h3 class="panel-title">Score</h3>
                             </div>
                             <div class="panel-body">
-                                <div class="panel-content score">
-                                </div>
+                                <div class="panel-content score"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
 </body>
 
 </html>
